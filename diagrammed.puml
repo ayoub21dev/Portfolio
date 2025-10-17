@@ -1,16 +1,16 @@
 @startuml
-left to right direction
-actor "USER" as User
+title Use Case Diagram - Ayoub's Portfolio Website
+actor "Visitor" as V
 
-rectangle "Portfolio Website" {
-    usecase "voir les Projets" as UC1
-    usecase "lire le Profile" as UC2
-    usecase "Télécharger le CV" as UC3
-    usecase "Contacter l'Auteur" as UC4
-}
+usecase "View Home Page" as UC1
+usecase "View About Section" as UC2
+usecase "View Skills Section" as UC3
+usecase "View Projects Section" as UC4
+usecase "Contact Ayoub via Form" as UC5
 
-User --> UC1
-User --> UC2
-User --> UC3
-User --> UC4
+V --> UC1
+V --> UC2
+V --> UC3
+V --> UC4
+V --> UC5
 @enduml
