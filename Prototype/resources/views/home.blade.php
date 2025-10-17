@@ -20,16 +20,15 @@
             <p class="text-muted fs-5">
                 {{ $developer['bio'] }}
             </p>
+            <p class="text-muted fs-5">
+                {{ $developer['email'] }}
+            </p>
         </div>
     </div>
     
     <hr class="my-5 w-25 mx-auto">
 
     
-    <a href="mailto:{{ $developer['email'] }}" class="btn btn-dark btn-lg px-5 py-3">
-        <i class="bi bi-envelope me-2"></i>
-        Entrer en contact
-    </a>
 
 </div>
 
