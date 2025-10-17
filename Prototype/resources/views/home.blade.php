@@ -26,7 +26,7 @@
         </div>
     </div>
     
-    <hr class="my-5 w-25 mx-auto">
+    
 
     
 
