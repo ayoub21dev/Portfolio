@@ -1,0 +1,43 @@
+flowchart TD
+    %% Home Page as central hub
+    A[Home Page] --> B[Projects]
+    A --> C[Skills]
+    A --> D[Contact]
+    A --> E[About Me]
+
+    %% Projects Section
+    B --> B1[Project 1]
+    B --> B2[Project 2]
+    B --> B3[Project 3]
+
+    %% Each Project Structure
+    subgraph Project_Details [Project Structure]
+        P1[Name]
+        P2[Description]
+        P3[Tech Stack]
+        P4[GitHub Link]
+        P5[Live Demo Link]
+    end
+    B1 --> Project_Details
+    B2 --> Project_Details
+    B3 --> Project_Details
+
+    %% Skills Section
+    C --> C1[Skill 1]
+    C --> C2[Skill 2]
+    C --> C3[Skill 3]
+
+    %% Contact Section
+    D --> D1[Email Form]
+    D --> D2[Social Links]
+
+    %% About Me Section
+    E --> E1[Bio]
+    E --> E2[Experience]
+    E --> E3[Education]
+
+    %% User Flow
+    Start([Visitor lands on Home]) --> A
+    D1 --> Action2[Submit Message]
+    Action2 -->|Success| F[Thank you ]
+    Action2 -->|Error| G[Retry Form]
