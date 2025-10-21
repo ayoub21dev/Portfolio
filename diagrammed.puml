@@ -1,16 +1,16 @@
-@startuml
-title Cas d'utilisation - Portfolio d'Ayoub
-' Portfolio web développé avec HTML, CSS, JavaScript et PHP/MySQL
-' Présente les projets et les informations personnelles d'Ayoub
+graph TD
+    subgraph "Navigation Bar"
+        H(Home)
+        P(Projects)
+        AM(About Me)
+    end
 
-actor Visiteur
+    Homepage["Homepage <br/> Name, Picture, Bio"]
+    
+    ProjectsPage["Projects Page <br/> Each project shows: <br/> Title, Image, GitHub/Demo Links"]
+    
+    AboutMePage["About Me Page <br/> Detailed Info & Skills"]
 
-' Cas d'utilisation principaux
-Visiteur --> (Consulter la page Accueil)
-Visiteur --> (Consulter la section À propos)
-Visiteur --> (Consulter la section Projets)
-
-' Extension : consulter les détails d’un projet depuis la section Projets
-(Consulter la section Projets) .> (Voir les détails d’un projet) : <<extend>>
-
-@enduml
+    H --> Homepage
+    P --> ProjectsPage
+    AM --> AboutMePage
