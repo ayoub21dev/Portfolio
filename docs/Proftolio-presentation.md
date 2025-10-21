@@ -1,61 +1,53 @@
 ---
-marp: true
-theme: default
+theme: uncover
+_class: lead
 paginate: true
-style: |
-  section {
-    text-align: left;
-  }
+backgroundColor: #ffffffff
+color: #000000ff
 ---
 
-# Protfolio Project
+<div style="text-align: center; font-size: 2em; font-weight: bold;">
+Portfolio Project
+</div>
 
-**By:** Ayoub Jalyta
+<div style="text-align: center; font-size: 1em; margin-top: 10px;">
+by Ayoub Jalyta
+</div>
 
 ---
 
-# Fonctionnelles
-
-**By:** Ayoub Jalyta  
+<div style="font-size: 0.7em; line-height: 1.4;">
+ 
 **Client:** Adnan Kesksu  
 
  F1. Affichage Responsive  
  F2. Contenu Statique  
  F3. Contact Par Email  
  F4. Navigation Simple  
-
----
-
-# Objectifs du Portfolio Web
-
- Vitrine Professionnelle  
- Visibilité Accrue  
- Génération d'Opportunités  
-
----
-# Example 
-
-<div style="display: flex; flex-direction: column; align-items: center;">
-
-
-  <img src="image/EX1.png" width="500" style="margin-bottom: 20px;">
-
-  <div style="display: flex; justify-content: center; gap: 20px;">
-    <img src="image/EX2.png" width="500">
-    <img src="image/EX3.png" width="550">
-  </div>
-
 </div>
 
+---
+
+Exemple de l'existant
+<div style="display: flex; gap: 20px; justify-content: center;">
+  <img src="image/EX1.png" style="max-width: 45%; height: auto;" />
+  <img src="image/EX2.png" style="max-width: 45%; height: auto;" />
+</div>
+
+<div style="text-align: center; margin-top: 20px;">
+  <img src="image/EX3.png" style="max-width: 70%; height: auto;" />
+</div>
 
 ---
 
-# UML
-
-![UML.png](image/UML.png)
+Diagramme de cas d'utilisation
+<div style="text-align: center;">
+  <img src="image/UML.png" style="max-width: 80%; height: auto;" />
+</div>
 
 ---
 
-# Conception
-
-![Conception.png](image/Conce.png)
+Conception
+<div style="text-align: center;">
+  <img src="image/Conce.png" style="max-width: 60%; height: auto;" />
+</div>
