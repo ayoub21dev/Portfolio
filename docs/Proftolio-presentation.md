@@ -52,10 +52,10 @@ style: |
 
 # UML
 
-![UML.png](./image/UML.png)
+![UML.png](image/UML.png)
 
 ---
 
 # Conception
 
-![Conception.png](./image/Conce.png)
+![Conception.png](image/Conce.png)
