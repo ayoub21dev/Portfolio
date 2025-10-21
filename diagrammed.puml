@@ -1,1 +1,16 @@
+@startuml
+title Cas d'utilisation - Portfolio d'Ayoub
+' Portfolio web développé avec HTML, CSS, JavaScript et PHP/MySQL
+' Présente les projets et les informations personnelles d'Ayoub
 
+actor Visiteur
+
+' Cas d'utilisation principaux
+Visiteur --> (Consulter la page Accueil)
+Visiteur --> (Consulter la section À propos)
+Visiteur --> (Consulter la section Projets)
+
+' Extension : consulter les détails d’un projet depuis la section Projets
+(Consulter la section Projets) .> (Voir les détails d’un projet) : <<extend>>
+
+@enduml

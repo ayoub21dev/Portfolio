@@ -3,32 +3,19 @@ flowchart TD
     subgraph NavBar [Barre de navigation]
         NavA[Home]
         NavB[Projects]
-        NavC[Skills]
         NavD[About Me]
-        NavE[Contact]
     end
 
     PageA[Homepage]
     PageB[Projects Section]
-    PageC[Skills Section]
     PageD[About Me Section]
-    PageE[Contact Form]
 
     NavA --> PageA
     NavB --> PageB
-    NavC --> PageC
     NavD --> PageD
-    NavE --> PageE
 
     PageA --> PageB
-    PageA --> PageC
     PageA --> PageD
     
     PageB --> P["Project Detail <br/> (GitHub / Live Demo Links)"]
-    P --> PageB 
-    
-    PageE --> S{Submit Form?}
-    S -- Yes --> TY[Thank You Message]
-    S -- No --> ERR[Error Message + Retry]
-    ERR --> PageE
-    TY --> PageA
+    P --> PageB
