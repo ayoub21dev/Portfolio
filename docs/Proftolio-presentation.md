@@ -58,8 +58,10 @@ Diagramme de classe
 <div style="text-align: center;">
   <img src="image/Diagram.png" style="max-width: 60%; height: auto;" />
 </div>
+
 ---
 Maquette
+
 
 <div style="text-align: center;">
   <img src="image/Maq.png" style="max-width: 60%; height: auto;" />
